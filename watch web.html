@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Basic Watch Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        .watch {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .watch-item {
+            background: #fafafa;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+        }
+        .watch-item img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+        .watch-item h3 {
+            margin: 10px 0 5px;
+        }
+        .watch-item p {
+            font-size: 14px;
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #222;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Classic Watch Store</h1>
+        <p>Quality watches for every style</p>
+    </header>
+    <div class="container">
+        <section class="watch">
+            <div class="watch-item">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=200&q=80" alt="Classic Watch 1" />
+                <h3>Classic Leather</h3>
+                <p>Elegant leather strap watch with minimalist dial.</p>
+                <strong>$120</strong>
+            </div>
+            <div class="watch-item">
+                <img src="https://images.unsplash.com/photo-1512295767273-acb46a2f54b7?auto=format&fit=crop&w=200&q=80" alt="Sport Watch" />
+                <h3>Sport Pro</h3>
+                <p>Durable and waterproof watch for active lifestyles.</p>
+                <strong>$150</strong>
+            </div>
+            <div class="watch-item">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf31?auto=format&fit=crop&w=200&q=80" alt="Luxury Gold Watch" />
+                <h3>Golden Elegance</h3>
+                <p>Luxurious gold finish watch for special occasions.</p>
+                <strong>$250</strong>
+            </div>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Classic Watch Store
+    </footer>
+</body>
+</html>
